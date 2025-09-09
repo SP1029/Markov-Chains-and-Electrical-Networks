@@ -19,7 +19,7 @@ Here's an example of a graph as an electrical network:
 
 ## 2. Markov Chains & Capacitor Networks
 
-<img src="images/capacitor.png" width="800"/>
+<img src="images/capacitor.png" width="600"/>
 
 This analogy links the **relaxation time** ($\tau_{rel}$) of a Markov chain (how fast it mixes) to the dissipation time in a related **RC circuit**.
 
