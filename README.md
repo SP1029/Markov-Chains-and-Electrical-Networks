@@ -7,11 +7,11 @@ An exploration into the deep connections between randomized algorithms and elect
 
 ## 1. Random Walks & Electrical Networks
 
-<img src="images/resistor.png" width="800"/>
+<img src="images/resistor.png" width="600"/>
 
 We model a graph as an electrical network, replacing each edge with a **resistor**. This allows us to analyze random walk properties like **hitting time** ($H_{uv}$) and **commute time** ($C_{uv}$) using electrical concepts.
 
-**Commute Time Formula**:
+* **Commute Time Formula**:
 $C_{uv} = 2m \cdot R_{uv}$
 where $m$ is the number of edges and $R_{uv}$ is the effective resistance between $u$ and $v$.
 
@@ -31,7 +31,7 @@ By constructing a network with capacitors at states and resistors representing t
 
 The results are verified by experimental plots confirming the equivalence.
 
-<img src="images/plots.png" width="800"/>
+<img src="images/plots.png" width="600"/>
 
 ## Directory Structure
 
@@ -51,6 +51,6 @@ The results are verified by experimental plots confirming the equivalence.
     └── helpers.py
 ```
 
-## 📄 License
+## License
 
 [MIT License](LICENSE)
