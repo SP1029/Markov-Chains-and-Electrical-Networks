@@ -12,7 +12,7 @@ An exploration into the deep connections between randomized algorithms and elect
 We model a graph as an electrical network, replacing each edge with a **resistor**. This allows us to analyze random walk properties like **hitting time** ($H_{uv}$) and **commute time** ($C_{uv}$) using electrical concepts.
 
 **Commute Time Formula**:
-$$ C_{uv} = 2m \cdot R_{uv} $$
+$C_{uv} = 2m \cdot R_{uv}$
 where $m$ is the number of edges and $R_{uv}$ is the effective resistance between $u$ and $v$.
 
 Here's an example of a graph as an electrical network:
